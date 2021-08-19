@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "folder": "inbox",
+      "from": "Zabdiel García",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
+      "timestamp": 1487848162905
+    },
+    {
+      "id": 2,
+      "folder": "inbox",
+      "from": "Fernando Hernandez",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
+      "timestamp": 1487845787719
+    },
+    {
+      "id": 3,
+      "folder": "inbox",
+      "from": "Esmeralda Alonso",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus, love you",
+      "timestamp": 1487845787719
+    },
+    {
+      "id": 4,
+      "folder": "trash",
+      "from": "Bethi Martínez",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
+      "timestamp": 1487845787719
+    }
+  ]
+}
