@@ -30,8 +30,7 @@ app.put('/api/playlist/:id', function (req, res) {
   var obj = JSON.parse(fs.readFileSync('db.json', 'utf8'));    
   var playlist =obj.playlist;
   const passId = req.params.id; 
-  var song = req.body;
-  console.log(song);
+  var song = req.body;  
   var newArray = playlist.map((p) => {
     if(p.id === song.id){
       p = Object.assign({},p,song);

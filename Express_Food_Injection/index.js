@@ -25,8 +25,7 @@ app.listen(3000, () => {
 })
 
  //read sides
- app.get('/api/sides', function (req, res) {
-  console.log("Read sides")
+ app.get('/api/sides', function (req, res) {  
   var fs = require('fs');
   var obj = JSON.parse(fs.readFileSync('db.json', 'utf8'));    
   var resp =obj.sides;
@@ -35,8 +34,7 @@ app.listen(3000, () => {
 })
 
  //read drinks
- app.get('/api/drinks', function (req, res) {
-  console.log("Read drinks")
+ app.get('/api/drinks', function (req, res) {  
   var fs = require('fs');
   var obj = JSON.parse(fs.readFileSync('db.json', 'utf8'));    
   var resp =obj.drinks;
@@ -44,8 +42,7 @@ app.listen(3000, () => {
   res.status(200).json(resp);
 })
 
-app.get('/api/stores', function (req, res) {
-  console.log("Read store")
+app.get('/api/stores', function (req, res) { 
   var fs = require('fs');
   var obj = JSON.parse(fs.readFileSync('db.json', 'utf8'));    
   var resp =obj.stores;
